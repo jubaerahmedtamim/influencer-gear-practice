@@ -72,7 +72,7 @@ main {
     padding: 36px 0;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
-    
+
 }
 
 .brands a {
@@ -87,7 +87,8 @@ main {
     margin-bottom: 30px;
     text-align: center;
 }
-.products{
+
+.products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
@@ -127,8 +128,84 @@ main {
     color: lightgrey;
 }
 
-.product-desc{
+.product-desc {
     font-weight: 700;
     font-size: 14px;
     color: #787885;
+}
+
+.see-more-btn {
+    text-align: end;
+    margin-top: 50px;
+}
+
+.see-more-btn a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    border: 0;
+    color: #E02C6D;
+}
+
+/* features area styles here */
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 96px;
+}
+
+.join-btn {
+    border-radius: 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.desc {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+
+/* footer styles here */
+.footer {
+    padding: 50px 0;
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+.footer > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer a img {
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.footer-desc {
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+    
+}
+.copyright-info{
+    font-size: 12px;
+    font-weight: 300;
+    color: #D9DBE1;
+    margin-bottom: 16px;
 }

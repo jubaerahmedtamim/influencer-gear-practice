@@ -7,8 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header {}
-
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -184,7 +182,8 @@ main {
     font-weight: 700;
     font-size: 24px;
 }
-.footer > div{
+
+.footer>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,11 +200,51 @@ main {
     font-weight: 700;
     font-size: 14px;
     color: #D9DBE1;
-    
+
 }
-.copyright-info{
+
+.copyright-info {
     font-size: 12px;
     font-weight: 300;
     color: #D9DBE1;
     margin-bottom: 16px;
+}
+
+/* media for responsive ness */
+@media screen and (max-width: 576px) {
+    .banner-container {
+        flex-direction: column-reverse;
+        margin: 0 20px;
+    }
+    .banner-images{
+        width: 350px;
+    }
+    .banner-circle{
+        width: 100%;
+    }
+    .banner-main-camera{
+        width: 100%;
+    }
+    .brands {
+        flex-wrap: wrap;
+    }
+
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .feature-img {
+        width: 350px;
+    }
+
 }
